@@ -1,0 +1,143 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  display: grid;
+}
+
+/* Header */
+
+header {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 1em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header img {
+  max-height: 8em;
+}
+
+header p {
+  display: grid;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+/* Progress Bar Area */
+
+#timer {
+  display: grid;
+  justify-self: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+}
+
+#progressBar {
+  display: grid;
+  justify-self: center;
+  width: 30em;
+  height: 1.50em;
+  border: 1px solid black;
+  margin: 1em 0 2em 0;
+}
+
+#progress {
+  width: 0%;
+  height: 1.50em;
+  background-color: black;
+}
+
+/* Main */
+
+main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+}
+
+main img {
+  display: grid;
+  justify-self: end;
+  max-height: 15em;
+  max-width: 23.625em;
+}
+
+#knop {
+  /* display: grid; */
+  display: none;
+  justify-self: center;
+  justify-content: center;
+  width: 4em;
+  padding: 0.5em 2em;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  background-color: black;
+}
+
+.vraag {
+  justify-self: start;
+  /* border: 1px solid black; */
+  margin-left: 3em;
+  padding: 1em;
+  min-height: 15em;
+}
+
+.vraag h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+.antwoorden {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5em;
+  border: 1px solid #CECECE;
+  color: #A2A2A2;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
+.antwoorden:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  background-color: black;
+  padding: 1em 0;
+  margin-top: 1em;
+}
+
+footer p {
+  margin: 0;
+}
